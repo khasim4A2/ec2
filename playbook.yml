@@ -1,6 +1,7 @@
 ---
 - name: servers in the cluster
   hosts: servers
+  become: yes
   
   tasks:
   - name: run uptime in all servers
