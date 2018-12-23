@@ -3,5 +3,5 @@
   hosts: servers
   
   tasks:
-   -name: run uptime in all servers
+  - name: run uptime in all servers
     command: uptime
