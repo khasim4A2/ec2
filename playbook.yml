@@ -1,0 +1,7 @@
+---
+- name: servers in the cluster
+  hosts: servers
+  
+  tasks:
+   -name: run uptime in all servers
+    command: uptime
